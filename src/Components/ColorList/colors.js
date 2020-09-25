@@ -25,12 +25,6 @@ colors = [
     grad_1: 'ef629f',
     grad_2: 'eecda3'
   },{
-    name : 'Sha La La',
-    color: 'white',
-    deg : '10',
-    grad_1: 'd66d75',
-    grad_2: 'e29587'
-  },{
     name : 'Sunset',
     color: 'white',
     deg : '10',
@@ -43,12 +37,6 @@ colors = [
     grad_1: 'ff5f6d',
     grad_2: 'ffc371'
   },{
-    name : 'Bourbon',
-    color: 'white',
-    deg : '10',
-    grad_1: 'ec6f66',
-    grad_2: 'f3a183'
-  },{
     name : 'Orange Coral',
     color: 'white',
     deg : '10',
@@ -60,6 +48,24 @@ colors = [
     deg : '10',
     grad_1: 'dd5e89',
     grad_2: 'f7bb97'
+  },{
+    name : 'Purple White',
+    color: 'white',
+    deg : '10',
+    grad_1: 'ba5370',
+    grad_2: 'f4e2d8'
+  },{
+    name : 'Sha La La',
+    color: 'white',
+    deg : '10',
+    grad_1: 'd66d75',
+    grad_2: 'e29587'
+  },{
+    name : 'Bourbon',
+    color: 'white',
+    deg : '10',
+    grad_1: 'ec6f66',
+    grad_2: 'f3a183'
   },{
     name : 'Pale Wood',
     color: 'white',
@@ -78,6 +84,18 @@ colors = [
     deg : '10',
     grad_1: 'de6262',
     grad_2: 'ffb88c'
+  },{
+    name : 'Cherry',
+    color: 'white',
+    deg : '10',
+    grad_1: 'eb3349',
+    grad_2: 'f45c43'
+  },{
+    name : 'Virgin America',
+    color: 'white',
+    deg : '10',
+    grad_1: '7b4397',
+    grad_2: 'dc2430'
   },{
     name : 'Purple Love',
     color: 'white',
