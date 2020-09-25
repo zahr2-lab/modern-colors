@@ -16,7 +16,7 @@ function Color(props){
 export default function ColorList(){
 
   return(
-    <div>
+    <div id='colorList'>
     {colors.map(obj => <Color obj={obj} />)}
     </div>
   )

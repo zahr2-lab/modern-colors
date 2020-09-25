@@ -6,7 +6,7 @@ import Search from './Components/Search/Search'
 
 export default function App() {
   return (
-    <div>
+    <div id='container'>
       <h1> &#9735; Search a Color &#9735;</h1>
       <Search  />
       <ColorList />
