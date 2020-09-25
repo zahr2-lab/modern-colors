@@ -1,12 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './colors';
 import './ColorList.scss'
 
 
 
 function Color(props){
+  const [style,setStyle]=useState(0)
+
   return(
-    <div className='colorContainer' style={{'background':`linear-gradient(${props.obj.deg}deg,#${props.obj.grad_1},#${props.obj.grad_2})`}}>
+    <div className={style==0? 'colorContainer':'fullScreen'} onClick={()=>setStyle(!style)} style={{'background':`linear-gradient(${props.obj.deg}deg,#${props.obj.grad_1},#${props.obj.grad_2})`}}>
     <span style={{'color':props.obj.color}}>{props.obj.name} :
     <span className='desc'> {props.obj.grad_1} &#8594; {props.obj.grad_2}</span></span>
     </div>
