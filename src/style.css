@@ -8,20 +8,13 @@ h1, p {
 }
 
 h1{
-  color:aliceblue;
-  text-shadow:
-       3px 3px 0 #aaa,
-     -1px -1px 0 #aaa,  
-      1px -1px 0 #aaa,
-      -1px 1px 0 #aaa,
-       1px 1px 0 #aaa;
+  color:rgb(56, 56, 56);
 }
 
 #container{
  display: flex;
  flex-direction: column;
  align-items: center;
-  background:  linear-gradient(30deg,#8ec5fc,#e0c3fc);
   height:100vh;
   padding: 1rem;
 
