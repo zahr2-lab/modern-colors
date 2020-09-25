@@ -103,16 +103,22 @@ colors = [
     grad_1: 'cc2b5e',
     grad_2: '753a88'
   },{
+    name : 'Mauve',
+    color: 'white',
+    deg : '10',
+    grad_1: '42275a',
+    grad_2: '734b6d'
+  },{
     name : 'Kashmir',
     color: 'white',
     deg : '10',
     grad_1: '614385',
     grad_2: '516395'
   },{
-    name : 'Mauve',
+    name : 'Frost',
     color: 'white',
     deg : '10',
-    grad_1: '42275a',
-    grad_2: '734b6d'
+    grad_1: '000428',
+    grad_2: '004e92'
   },
 ]
