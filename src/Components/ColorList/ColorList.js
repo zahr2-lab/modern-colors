@@ -13,11 +13,11 @@ function Color(props){
   )
 }
 
-export default function ColorList(){
+export default function ColorList(props){
 
   return(
     <div id='colorList'>
-    {colors.map(obj => <Color obj={obj} />)}
+    {colors.filter(data => props.name === null? data : data.name.toLowerCase().includes(props.name.toLowerCase())).map(obj => <Color obj={obj} />)}
     </div>
   )
 }
